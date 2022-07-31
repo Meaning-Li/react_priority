@@ -113,11 +113,11 @@ const priority2UserList: Priority[] = [
 ];
 const priority2Name = [
   'noop',
-  'IdlePriority',
-  'LowPriority',
-  'NormalPriority',
+  'ImmediatePriorpriority',
   'UserBlockingPriorpriority',
-  'ImmediatePriorpriority'
+  'NormalPriority',
+  'LowPriority',
+  'IdlePriority'
 ];
 priority2UserList.forEach(priority => {
   const btn = document.createElement('button');
